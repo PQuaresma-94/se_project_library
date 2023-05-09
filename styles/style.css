@@ -19,11 +19,11 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  height: 60px;
 }
 
 .logo {
   width: 196px;
+  height: 60px;
 }
 
 .nav__links {
@@ -301,7 +301,7 @@
 }
 
 .card__footer {
-  margin-top: auto;
+  margin: auto 0 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
@@ -378,17 +378,12 @@
   max-width: 660px;
   display: flex;
   flex-direction: column;
+  row-gap: 32px;
   z-index: 1;
 }
 
 .about__paragraph {
-  margin-top: 0;
-  margin-bottom: 32px;
-}
-
-.about__paragraph:last-of-type {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .about__circle {
